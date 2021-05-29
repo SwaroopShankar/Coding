@@ -1,8 +1,10 @@
 //program to illustrate tower of hanoi
 #include<stdio.h>
-#define N 3
 void toh(int,char,char,char);
 void main(){
+   int N;
+   printf("Enter N\n");
+   scanf("%d",&N);
    toh(N,'A','C','B');
 }
 void toh(int n,char A,char C,char B){
